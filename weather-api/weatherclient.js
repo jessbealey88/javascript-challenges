@@ -1,8 +1,8 @@
-
+const apiKey = require('./apiKey');
 class WeatherClient {
 
     fetchWeatherData(city){
-        const apiKey = require('./apiKey');
+        
         const apiUrl = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${apiKey}`;
 
         let weatherData = null;
