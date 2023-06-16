@@ -1,4 +1,4 @@
-const apiKey = '1c752e5761aa229c70f540478666d1c6';
+const apiKey = require('./apiKey');
 const city = 'London';
 const apiUrl = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${apiKey}`;
 
